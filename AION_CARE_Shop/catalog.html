@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Katalog Produktów – AION CARE</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/catalog.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Strona główna</a> | 
+            <a href="catalog.html">Produkty</a> | 
+            <a href="cart.html">Koszyk</a> | 
+            <a href="learn.html">Edukacja</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Katalog Produktów</h1>
+        <div>
+            <label>Filtruj według typu skóry:</label>
+            <select id="skinFilter">
+                <option value="all">Wszystkie</option>
+                <option value="dry">Sucha</option>
+                <option value="oily">Tłusta</option>
+                <option value="combo">Mieszana</option>
+            </select>
+        </div>
+        <div id="productList" class="product-grid"></div>
+    </main>
+</body>
+</html>
